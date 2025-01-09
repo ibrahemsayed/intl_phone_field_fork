@@ -93,6 +93,7 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
       child: Container(
         padding: widget.style?.padding ?? const EdgeInsets.all(10),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Padding(
               padding: widget.style?.searchFieldPadding ?? const EdgeInsets.all(0),
